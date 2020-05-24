@@ -4,7 +4,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from .locators import MainPageLocators
 from .locators import ProductPageLocators
-from .locators import BasePageLocators
 
 
 class ProductPage(BasePage): 
